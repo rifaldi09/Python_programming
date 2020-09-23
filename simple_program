@@ -8,11 +8,14 @@ Pajak = 9
 TotalHargaRumah = (HargaRumah + Adm) * Pajak/100
 Kembalian = Modal - TotalHargaRumah
 
-print ('========= WELCOME ==========')
+print ('========= SELAMAT DATANG ==========')
+
 print (enter,'*Harga dibawah ini dalam satuan jutaan Rp')
 print (enter,'Harga Rumah = Rp.',HargaRumah)
-print ('Administrasi = Rp.',Adm)
-print ('Pajak Pertahun = Rp.',Pajak)
-print ('Total Harga Rumah = Rp.',TotalHargaRumah)
-print ('Jumlah Pembayaran = Rp.',Modal)
-print ('Kembalian = Rp.',Kembalian)
+print (enter,'Administrasi = Rp.',Adm)
+print (enter,'Pajak Pertahun = Rp.',Pajak)
+print (enter,'Total Harga Rumah = Rp.',TotalHargaRumah)
+print (enter,'Jumlah Pembayaran = Rp.',Modal)
+print (enter,'Kembalian = Rp.',Kembalian)
+
+print ('========= Terima Kasih Telah Berbelanja ==========')
