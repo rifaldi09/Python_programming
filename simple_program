@@ -9,8 +9,8 @@ TotalHargaRumah = (HargaRumah + Adm) * Pajak/100
 Kembalian = Modal - TotalHargaRumah
 
 print ('========= SELAMAT DATANG ==========')
+print (enter,'*Harga Rumah dibawah ini dalam satuan jutaan Rp')
 
-print (enter,'*Harga dibawah ini dalam satuan jutaan Rp')
 print (enter,'Harga Rumah = Rp.',HargaRumah)
 print (enter,'Administrasi = Rp.',Adm)
 print (enter,'Pajak Pertahun = Rp.',Pajak)
