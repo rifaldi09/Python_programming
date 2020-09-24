@@ -1,6 +1,7 @@
 # Simple Program
 
 enter = '\n'
+tab = '\t'
 Modal = 1500
 HargaRumah = 800
 Adm = 7
@@ -9,8 +10,8 @@ TotalHargaRumah = (HargaRumah + Adm) * Pajak/100
 Kembalian = Modal - TotalHargaRumah
 
 print ('========= SELAMAT DATANG ==========')
+print (enter,'*Harga Rumah dibawah ini dalam satuan jutaan Rp')
 
-print (enter,'*Harga dibawah ini dalam satuan jutaan Rp')
 print (enter,'Harga Rumah = Rp.',HargaRumah)
 print (enter,'Administrasi = Rp.',Adm)
 print (enter,'Pajak Pertahun = Rp.',Pajak)
@@ -19,3 +20,4 @@ print (enter,'Jumlah Pembayaran = Rp.',Modal)
 print (enter,'Kembalian = Rp.',Kembalian)
 
 print ('========= Terima Kasih Telah Berbelanja ==========')
+print ('========= Harap Berikan Review Aplikasi ==========')
