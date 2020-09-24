@@ -1,6 +1,7 @@
 # Simple Program
 
 enter = '\n'
+tab = '\t'
 Modal = 1500
 HargaRumah = 800
 Adm = 7
@@ -19,3 +20,4 @@ print (enter,'Jumlah Pembayaran = Rp.',Modal)
 print (enter,'Kembalian = Rp.',Kembalian)
 
 print ('========= Terima Kasih Telah Berbelanja ==========')
+print ('========= Harap Berikan Review Aplikasi ==========')
